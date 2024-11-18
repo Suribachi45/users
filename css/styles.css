@@ -10,4 +10,30 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style: none;
+align-items: center;
+
+}
+
+#listaUsuarios li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+#listaUsuarios li img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
 
